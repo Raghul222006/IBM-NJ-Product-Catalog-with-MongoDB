@@ -1,9 +1,10 @@
 Mongodb
 
-Aim:
-The aim of the Product Catalog with MongoDB project is to develop a full-stack web application where users can view, add, update, and delete products. This system helps manage product details efficiently using MongoDB as the database and provides a simple, user-friendly interface for interaction.
+1.Aim:
+The aim of the Product Catalog with MongoDB project is to develop a full-stack web application where users can view, add, update, and delete products. 
+This system helps manage product details efficiently using MongoDB as the database and provides a simple, user-friendly interface for interaction.
 
-Features:
+2.Features:
 --Add New Products: Users or admins can add new products with name, price, description, and category.
 
 --View Products: Displays a list of all available products stored in the database.
@@ -20,7 +21,7 @@ Features:
 
 --Error Handling: Handles missing fields, invalid entries, or failed database connections smoothly.
 
-Technologies:
+3.Technologies:
 --Frontend (Optional – if included)
 
 HTML / CSS / JavaScript: For creating the basic UI for adding, viewing, and managing products.
@@ -47,10 +48,10 @@ dotenv: For storing sensitive information such as database URLs and secret keys.
 
 cors: To handle cross-origin requests safely.
 
-Project Flow:
+4.Project Flow:
 --User/Admin opens the product catalog web app.
 
---Add Product Form collects product details (name, price, category, etc.).
+--Add Product Form collects product details (name, price, category, etc.).  
 
 --Backend API stores the details in MongoDB.
 
